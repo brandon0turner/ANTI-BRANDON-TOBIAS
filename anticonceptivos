@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos Anticonceptivos</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .hero-section {
+            background-color: #e9ecef;
+            padding: 60px 0;
+        }
+        .card-img-top {
+            height: 180px;
+            object-fit: cover;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #adb5bd;
+        }
+        .footer a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Anticonceptivos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#metodos">Métodos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4">Métodos Anticonceptivos</h1>
+            <p class="lead">Explora diferentes opciones para el control de la natalidad y el bienestar.</p>
+        </div>
+    </header>
+
+    <!-- Sección de Métodos -->
+    <section id="metodos" class="container my-5">
+        <h2 class="text-center mb-4">Métodos Disponibles</h2>
+        <div class="row">
+            <!-- Método 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Método 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Método 1</h5>
+                        <p class="card-text">Descripción breve del primer método anticonceptivo. Sus beneficios y posibles efectos secundarios.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Método 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Método 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Método 2</h5>
+                        <p class="card-text">Descripción breve del segundo método anticonceptivo. Sus beneficios y posibles efectos secundarios.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Método 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Método 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Método 3</h5>
+                        <p class="card-text">Descripción breve del tercer método anticonceptivo. Sus beneficios y posibles efectos secundarios.</p>
+                        <a href="#" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2024 Métodos Anticonceptivos. Todos los derechos reservados.</p>
+            <p><a href="#">Política de Privacidad</a> | <a href="#">Términos de Servicio</a></p>
+        </div>
+    </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
